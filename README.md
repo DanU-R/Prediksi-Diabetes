@@ -1,8 +1,4 @@
-<!----------------------------------------------------------------------------->
-[Link]: (https://docs.google.com/document/d/1JBS63I9NjCFmYy3uWTHsYg3VKGAiXTBhLTzwYcWhwog/edit)
-<!---------------------------------[ Buttons ]--------------------------------->
-![Django] (https://docs.google.com/document/d/1JBS63I9NjCFmYy3uWTHsYg3VKGAiXTBhLTzwYcWhwog/edit)
-/(https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)/
+[![Google Drive](https://img.shields.io/badge/Modul-02AFDC?style=for-the-badge&logo=googledrive&logoColor=white)(https://docs.google.com/document/d/1JBS63I9NjCFmYy3uWTHsYg3VKGAiXTBhLTzwYcWhwog/edit?usp=sharing)
 
 Hasil Prediksi Diabetes
 
