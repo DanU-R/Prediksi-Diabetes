@@ -1,6 +1,6 @@
 <div align='center'>
    <h1>Prediksi-Diabetes</h1>
-   <p>Your go-to tool for predicting diabetes risk using advanced algorithms.</p>
+   <p>Solusi cerdas untuk mendeteksi risiko diabetes.</p>
    
    <p>
       <img src='https://img.shields.io/github/last-commit/DanU-R/Prediksi-Diabetes?style=for-the-badge&logo=github&color=blue' alt='Last Commit'>
@@ -10,51 +10,45 @@
 </div>
 
 ## 📖 About
-Prediksi-Diabetes is a web-based application designed to help users assess their risk of diabetes through user-friendly input forms and predictive modeling powered by Python. The tool leverages machine learning algorithms to provide insights based on health data, making it easier for individuals to take proactive steps towards their health.
+Prediksi-Diabetes adalah proyek yang dirancang untuk membantu individu dan profesional kesehatan dalam memprediksi risiko diabetes menggunakan model machine learning yang canggih. Dengan antarmuka yang ramah pengguna, proyek ini memungkinkan pengguna untuk memasukkan data kesehatan mereka dan mendapatkan analisis serta rekomendasi yang tepat.
 
 ## 🚀 Key Features
-* ✅ **User-friendly Interface:** An intuitive web interface that allows users to easily input health metrics.
-* ✅ **Real-time Predictions:** Instant predictions based on user data, providing immediate feedback.
-* ✅ **Data Visualization:** Graphical representation of results to help users understand their health risks better.
-* ✅ **Secure Data Handling:** Ensures user data is handled with the utmost security and privacy.
-* ✅ **Educational Resources:** Offers articles and tips on diabetes prevention and management.
+* ✅ **Prediksi Risiko:** Menggunakan algoritma machine learning untuk memprediksi kemungkinan seseorang terkena diabetes.
+* ✅ **Antarmuka Pengguna yang Interaktif:** Desain berbasis HTML yang mudah dinavigasi untuk meningkatkan pengalaman pengguna.
+* ✅ **Visualisasi Data:** Menampilkan grafik dan visualisasi untuk membantu pengguna memahami data mereka.
+* ✅ **Pengelolaan Data Pengguna:** Fitur untuk menyimpan dan mengelola data pengguna secara aman.
+* ✅ **Integrasi API:** Kemampuan untuk mengintegrasikan dengan layanan kesehatan lainnya untuk analisis yang lebih mendalam.
 
 ## 🛠️ Tech Stack
-**Backend:**
-<img src='https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white' alt='Python'>
-
-**Frontend:**
-<img src='https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white' alt='HTML'>
-
-**Tools:**
-<img src='https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white' alt='Git'>
-<img src='https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white' alt='GitHub'>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 ## ⚙️ Installation
-To set up the project locally, follow these steps:
+Ikuti langkah-langkah berikut untuk mengatur proyek ini secara lokal:
 
-1. Clone the repository:
-```bash
-git clone https://github.com/DanU-R/Prediksi-Diabetes.git
-```
+1. Buat lingkungan virtual:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
 
-2. Navigate into the project directory:
-```bash
-cd Prediksi-Diabetes
-```
+2. Instal dependensi:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. Install the required Python packages:
-```bash
-pip install -r requirements.txt
-```
+3. Lakukan migrasi database (jika menggunakan Django):
+   ```bash
+   python manage.py migrate
+   ```
 
-4. Run the application:
-```bash
-python app.py
-```
+4. Jalankan server:
+   ```bash
+   python manage.py runserver
+   ```
 
 ## 🤝 Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+Kontribusi sangat diterima! Silakan buka isu atau kirim pull request untuk berkontribusi pada proyek ini.
 
 ## 📄 License
-This project is licensed under the MIT License.
+Proyek ini dilisensikan di bawah MIT License.
